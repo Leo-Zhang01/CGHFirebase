@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterNotification">
+
+    <Button
+        android:id="@+id/oneHourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="406dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="57dp"
+        android:text="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/moreBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/moreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="406dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="57dp"
+        android:text="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/oneHourBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="263dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="230dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="179dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</android.support.constraint.ConstraintLayout>
